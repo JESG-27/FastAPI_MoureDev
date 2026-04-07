@@ -7,7 +7,7 @@
       "request": "launch",
       "module": "uvicorn",
       "args": [
-        "API.routers.basic_auth_users:app",
+        "API.main:app",
         "--reload"
       ],
       "jinja": true,
